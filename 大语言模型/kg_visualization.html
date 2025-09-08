@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u82f9\u679c\u516c\u53f8", "label": "\u82f9\u679c\u516c\u53f8", "shape": "dot", "size": 35.0, "title": "\u82f9\u679c\u516c\u53f8"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "1976\u5e744\u67081\u65e5|\u53f2\u8482\u592b\u00b7\u4e54\u5e03\u65af\u3001\u53f2\u8482\u592b\u00b7\u6c83\u5179\u5c3c\u4e9a\u514b\u548c\u7f57\u7eb3\u5fb7\u00b7\u97e6\u6069", "label": "1976\u5e744\u67081\u65e5|\u53f2\u8482\u592b\u00b7\u4e54\u5e03\u65af\u3001\u53f2\u8482\u592b\u00b7\u6c83\u5179\u5c3c\u4e9a\u514b\u548c\u7f57\u7eb3\u5fb7\u00b7\u97e6\u6069", "shape": "dot", "size": 20.0, "title": "1976\u5e744\u67081\u65e5|\u53f2\u8482\u592b\u00b7\u4e54\u5e03\u65af\u3001\u53f2\u8482\u592b\u00b7\u6c83\u5179\u5c3c\u4e9a\u514b\u548c\u7f57\u7eb3\u5fb7\u00b7\u97e6\u6069"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u52a0\u5229\u798f\u5c3c\u4e9a\u5dde\u5e93\u6bd4\u8482\u8bfa", "label": "\u52a0\u5229\u798f\u5c3c\u4e9a\u5dde\u5e93\u6bd4\u8482\u8bfa", "shape": "dot", "size": 20.0, "title": "\u52a0\u5229\u798f\u5c3c\u4e9a\u5dde\u5e93\u6bd4\u8482\u8bfa"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u8482\u59c6\u00b7\u5e93\u514b", "label": "\u8482\u59c6\u00b7\u5e93\u514b", "shape": "dot", "size": 20.0, "title": "\u8482\u59c6\u00b7\u5e93\u514b"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "iPhone\u667a\u80fd\u624b\u673a\u3001Mac\u7535\u8111\u548ciPad\u5e73\u677f\u7535\u8111", "label": "iPhone\u667a\u80fd\u624b\u673a\u3001Mac\u7535\u8111\u548ciPad\u5e73\u677f\u7535\u8111", "shape": "dot", "size": 20.0, "title": "iPhone\u667a\u80fd\u624b\u673a\u3001Mac\u7535\u8111\u548ciPad\u5e73\u677f\u7535\u8111"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u5fae\u8f6f(Microsoft)", "label": "\u5fae\u8f6f(Microsoft)", "shape": "dot", "size": 35.0, "title": "\u5fae\u8f6f(Microsoft)"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u6bd4\u5c14\u00b7\u76d6\u8328\u548c\u4fdd\u7f57\u00b7\u827e\u4f26", "label": "\u6bd4\u5c14\u00b7\u76d6\u8328\u548c\u4fdd\u7f57\u00b7\u827e\u4f26", "shape": "dot", "size": 20.0, "title": "\u6bd4\u5c14\u00b7\u76d6\u8328\u548c\u4fdd\u7f57\u00b7\u827e\u4f26"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u534e\u76db\u987f\u5dde\u96f7\u5fb7\u8499\u5fb7", "label": "\u534e\u76db\u987f\u5dde\u96f7\u5fb7\u8499\u5fb7", "shape": "dot", "size": 20.0, "title": "\u534e\u76db\u987f\u5dde\u96f7\u5fb7\u8499\u5fb7"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "LinkedIn", "label": "LinkedIn", "shape": "dot", "size": 20.0, "title": "LinkedIn"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u8428\u63d0\u4e9a\u00b7\u7eb3\u5fb7\u62c9", "label": "\u8428\u63d0\u4e9a\u00b7\u7eb3\u5fb7\u62c9", "shape": "dot", "size": 20.0, "title": "\u8428\u63d0\u4e9a\u00b7\u7eb3\u5fb7\u62c9"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8", "label": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8", "shape": "dot", "size": 30.0, "title": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "1987\u5e74|\u4efb\u6b63\u975e", "label": "1987\u5e74|\u4efb\u6b63\u975e", "shape": "dot", "size": 20.0, "title": "1987\u5e74|\u4efb\u6b63\u975e"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u6df1\u5733", "label": "\u6df1\u5733", "shape": "dot", "size": 20.0, "title": "\u6df1\u5733"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u4efb\u6b63\u975e", "label": "\u4efb\u6b63\u975e", "shape": "dot", "size": 20.0, "title": "\u4efb\u6b63\u975e"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u963f\u91cc\u5df4\u5df4\u96c6\u56e2", "label": "\u963f\u91cc\u5df4\u5df4\u96c6\u56e2", "shape": "dot", "size": 30.0, "title": "\u963f\u91cc\u5df4\u5df4\u96c6\u56e2"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u9a6c\u4e91\u548c18\u4f4d\u5176\u4ed6\u521b\u59cb\u4eba", "label": "\u9a6c\u4e91\u548c18\u4f4d\u5176\u4ed6\u521b\u59cb\u4eba", "shape": "dot", "size": 20.0, "title": "\u9a6c\u4e91\u548c18\u4f4d\u5176\u4ed6\u521b\u59cb\u4eba"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u676d\u5dde", "label": "\u676d\u5dde", "shape": "dot", "size": 20.0, "title": "\u676d\u5dde"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u6210\u7acb\u4e8e1999\u5e74", "label": "\u6210\u7acb\u4e8e1999\u5e74", "shape": "dot", "size": 20.0, "title": "\u6210\u7acb\u4e8e1999\u5e74"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u8c37\u6b4c\u6bcd\u516c\u53f8Alphabet", "label": "\u8c37\u6b4c\u6bcd\u516c\u53f8Alphabet", "shape": "dot", "size": 35.0, "title": "\u8c37\u6b4c\u6bcd\u516c\u53f8Alphabet"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u6851\u8fbe\u5c14\u00b7\u76ae\u67e5\u4f0a", "label": "\u6851\u8fbe\u5c14\u00b7\u76ae\u67e5\u4f0a", "shape": "dot", "size": 20.0, "title": "\u6851\u8fbe\u5c14\u00b7\u76ae\u67e5\u4f0a"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "Fitbit", "label": "Fitbit", "shape": "dot", "size": 20.0, "title": "Fitbit"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "WhatsApp", "label": "WhatsApp", "shape": "dot", "size": 20.0, "title": "WhatsApp"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u9a6c\u514b\u00b7\u624e\u514b\u4f2f\u683c", "label": "\u9a6c\u514b\u00b7\u624e\u514b\u4f2f\u683c", "shape": "dot", "size": 20.0, "title": "\u9a6c\u514b\u00b7\u624e\u514b\u4f2f\u683c"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u7279\u65af\u62c9\u6c7d\u8f66\u516c\u53f8", "label": "\u7279\u65af\u62c9\u6c7d\u8f66\u516c\u53f8", "shape": "dot", "size": 30.0, "title": "\u7279\u65af\u62c9\u6c7d\u8f66\u516c\u53f8"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "2003\u5e74|\u57c3\u9686\u00b7\u9a6c\u65af\u514b", "label": "2003\u5e74|\u57c3\u9686\u00b7\u9a6c\u65af\u514b", "shape": "dot", "size": 20.0, "title": "2003\u5e74|\u57c3\u9686\u00b7\u9a6c\u65af\u514b"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u7f8e\u56fd\u5e15\u6d1b\u963f\u5c14\u6258", "label": "\u7f8e\u56fd\u5e15\u6d1b\u963f\u5c14\u6258", "shape": "dot", "size": 20.0, "title": "\u7f8e\u56fd\u5e15\u6d1b\u963f\u5c14\u6258"}, {"color": "#FFD2D2", "font": {"color": "#333333"}, "id": "\u5f00\u59cb\u91cf\u4ea7Model 3", "label": "\u5f00\u59cb\u91cf\u4ea7Model 3", "shape": "dot", "size": 20.0, "title": "\u5f00\u59cb\u91cf\u4ea7Model 3"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "\u82f9\u679c\u516c\u53f8", "label": "\u6210\u7acb\u4e8e", "title": "\u6210\u7acb\u4e8e", "to": "1976\u5e744\u67081\u65e5|\u53f2\u8482\u592b\u00b7\u4e54\u5e03\u65af\u3001\u53f2\u8482\u592b\u00b7\u6c83\u5179\u5c3c\u4e9a\u514b\u548c\u7f57\u7eb3\u5fb7\u00b7\u97e6\u6069", "width": 1}, {"arrows": "to", "from": "\u82f9\u679c\u516c\u53f8", "label": "\u603b\u90e8\u4f4d\u4e8e", "title": "\u603b\u90e8\u4f4d\u4e8e", "to": "\u52a0\u5229\u798f\u5c3c\u4e9a\u5dde\u5e93\u6bd4\u8482\u8bfa", "width": 1}, {"arrows": "to", "from": "\u82f9\u679c\u516c\u53f8", "label": "CEO", "title": "CEO", "to": "\u8482\u59c6\u00b7\u5e93\u514b", "width": 1}, {"arrows": "to", "from": "\u82f9\u679c\u516c\u53f8", "label": "\u4ea7\u54c1", "title": "\u4ea7\u54c1", "to": "iPhone\u667a\u80fd\u624b\u673a\u3001Mac\u7535\u8111\u548ciPad\u5e73\u677f\u7535\u8111", "width": 1}, {"arrows": "to", "from": "\u5fae\u8f6f(Microsoft)", "label": "\u521b\u59cb\u4eba", "title": "\u521b\u59cb\u4eba", "to": "\u6bd4\u5c14\u00b7\u76d6\u8328\u548c\u4fdd\u7f57\u00b7\u827e\u4f26", "width": 1}, {"arrows": "to", "from": "\u5fae\u8f6f(Microsoft)", "label": "\u603b\u90e8\u4f4d\u4e8e", "title": "\u603b\u90e8\u4f4d\u4e8e", "to": "\u534e\u76db\u987f\u5dde\u96f7\u5fb7\u8499\u5fb7", "width": 1}, {"arrows": "to", "from": "\u5fae\u8f6f(Microsoft)", "label": "2016\u5e74\u6536\u8d2d", "title": "2016\u5e74\u6536\u8d2d", "to": "LinkedIn", "width": 2}, {"arrows": "to", "from": "\u5fae\u8f6f(Microsoft)", "label": "CEO", "title": "CEO", "to": "\u8428\u63d0\u4e9a\u00b7\u7eb3\u5fb7\u62c9", "width": 1}, {"arrows": "to", "from": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8", "label": "\u6210\u7acb\u4e8e", "title": "\u6210\u7acb\u4e8e", "to": "1987\u5e74|\u4efb\u6b63\u975e", "width": 1}, {"arrows": "to", "from": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8", "label": "\u603b\u90e8\u4f4d\u4e8e", "title": "\u603b\u90e8\u4f4d\u4e8e", "to": "\u6df1\u5733", "width": 1}, {"arrows": "to", "from": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8", "label": "\u521b\u59cb\u4eba", "title": "\u521b\u59cb\u4eba", "to": "\u4efb\u6b63\u975e", "width": 1}, {"arrows": "to", "from": "\u963f\u91cc\u5df4\u5df4\u96c6\u56e2", "label": "\u521b\u59cb\u4eba", "title": "\u521b\u59cb\u4eba", "to": "\u9a6c\u4e91\u548c18\u4f4d\u5176\u4ed6\u521b\u59cb\u4eba", "width": 1}, {"arrows": "to", "from": "\u963f\u91cc\u5df4\u5df4\u96c6\u56e2", "label": "\u603b\u90e8\u4f4d\u4e8e", "title": "\u603b\u90e8\u4f4d\u4e8e", "to": "\u676d\u5dde", "width": 1}, {"arrows": "to", "from": "\u963f\u91cc\u5df4\u5df4\u96c6\u56e2", "label": "2019\u5e74", "title": "2019\u5e74", "to": "\u6210\u7acb\u4e8e1999\u5e74", "width": 1}, {"arrows": "to", "from": "\u8c37\u6b4c\u6bcd\u516c\u53f8Alphabet", "label": "CEO", "title": "CEO", "to": "\u6851\u8fbe\u5c14\u00b7\u76ae\u67e5\u4f0a", "width": 1}, {"arrows": "to", "from": "\u8c37\u6b4c\u6bcd\u516c\u53f8Alphabet", "label": "2018\u5e74\u6536\u8d2d", "title": "2018\u5e74\u6536\u8d2d", "to": "Fitbit", "width": 2}, {"arrows": "to", "from": "\u8c37\u6b4c\u6bcd\u516c\u53f8Alphabet", "label": "2014\u5e74\u6536\u8d2d", "title": "2014\u5e74\u6536\u8d2d", "to": "WhatsApp", "width": 2}, {"arrows": "to", "from": "\u8c37\u6b4c\u6bcd\u516c\u53f8Alphabet", "label": "\u521b\u59cb\u4eba", "title": "\u521b\u59cb\u4eba", "to": "\u9a6c\u514b\u00b7\u624e\u514b\u4f2f\u683c", "width": 1}, {"arrows": "to", "from": "\u7279\u65af\u62c9\u6c7d\u8f66\u516c\u53f8", "label": "\u6210\u7acb\u4e8e", "title": "\u6210\u7acb\u4e8e", "to": "2003\u5e74|\u57c3\u9686\u00b7\u9a6c\u65af\u514b", "width": 1}, {"arrows": "to", "from": "\u7279\u65af\u62c9\u6c7d\u8f66\u516c\u53f8", "label": "\u603b\u90e8\u4f4d\u4e8e", "title": "\u603b\u90e8\u4f4d\u4e8e", "to": "\u7f8e\u56fd\u5e15\u6d1b\u963f\u5c14\u6258", "width": 1}, {"arrows": "to", "from": "\u7279\u65af\u62c9\u6c7d\u8f66\u516c\u53f8", "label": "2020\u5e74", "title": "2020\u5e74", "to": "\u5f00\u59cb\u91cf\u4ea7Model 3", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"font": {"size": 16}, "shape": "box", "borderWidth": 2, "color": {"border": "#2B7CE9", "background": "#D2E5FF"}}, "edges": {"arrows": {"to": {"enabled": true}}, "font": {"size": 12, "align": "middle"}, "color": {"color": "#2B7CE9", "highlight": "#FF0000"}, "smooth": {"type": "continuous"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -100, "centralGravity": 0.01, "springLength": 150}, "minVelocity": 0.75, "solver": "forceAtlas2Based"}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

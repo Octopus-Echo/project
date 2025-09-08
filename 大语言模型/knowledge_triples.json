@@ -1,0 +1,107 @@
+[
+  {
+    "subject": "苹果公司",
+    "relation": "成立于",
+    "object": "1976年4月1日|史蒂夫·乔布斯、史蒂夫·沃兹尼亚克和罗纳德·韦恩"
+  },
+  {
+    "subject": "苹果公司",
+    "relation": "总部位于",
+    "object": "加利福尼亚州库比蒂诺"
+  },
+  {
+    "subject": "苹果公司",
+    "relation": "CEO",
+    "object": "蒂姆·库克"
+  },
+  {
+    "subject": "苹果公司",
+    "relation": "产品",
+    "object": "iPhone智能手机、Mac电脑和iPad平板电脑"
+  },
+  {
+    "subject": "微软(Microsoft)",
+    "relation": "创始人",
+    "object": "比尔·盖茨和保罗·艾伦"
+  },
+  {
+    "subject": "微软(Microsoft)",
+    "relation": "总部位于",
+    "object": "华盛顿州雷德蒙德"
+  },
+  {
+    "subject": "微软(Microsoft)",
+    "relation": "2016年收购",
+    "object": "LinkedIn"
+  },
+  {
+    "subject": "微软(Microsoft)",
+    "relation": "CEO",
+    "object": "萨提亚·纳德拉"
+  },
+  {
+    "subject": "华为技术有限公司",
+    "relation": "成立于",
+    "object": "1987年|任正非"
+  },
+  {
+    "subject": "华为技术有限公司",
+    "relation": "总部位于",
+    "object": "深圳"
+  },
+  {
+    "subject": "华为技术有限公司",
+    "relation": "创始人",
+    "object": "任正非"
+  },
+  {
+    "subject": "阿里巴巴集团",
+    "relation": "创始人",
+    "object": "马云和18位其他创始人"
+  },
+  {
+    "subject": "阿里巴巴集团",
+    "relation": "总部位于",
+    "object": "杭州"
+  },
+  {
+    "subject": "阿里巴巴集团",
+    "relation": "2019年",
+    "object": "成立于1999年"
+  },
+  {
+    "subject": "谷歌母公司Alphabet",
+    "relation": "CEO",
+    "object": "桑达尔·皮查伊"
+  },
+  {
+    "subject": "谷歌母公司Alphabet",
+    "relation": "2018年收购",
+    "object": "Fitbit"
+  },
+  {
+    "subject": "谷歌母公司Alphabet",
+    "relation": "2014年收购",
+    "object": "WhatsApp"
+  },
+  {
+    "subject": "谷歌母公司Alphabet",
+    "relation": "创始人",
+    "object": "马克·扎克伯格"
+  },
+  {
+    "subject": "特斯拉汽车公司",
+    "relation": "成立于",
+    "object": "2003年|埃隆·马斯克"
+  },
+  {
+    "subject": "特斯拉汽车公司",
+    "relation": "总部位于",
+    "object": "美国帕洛阿尔托"
+  },
+  {
+    "subject": "特斯拉汽车公司",
+    "relation": "2020年",
+    "object": "开始量产Model 3"
+  }
+]

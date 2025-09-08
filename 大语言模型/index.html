@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>徐州旅游智能推荐系统</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #34495e;
+        }
+        select, input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .checkbox-item {
+            background: #e8f4fc;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        input[type="checkbox"] {
+            display: none;
+        }
+        input[type="checkbox"]:checked + span {
+            background: #3498db;
+            color: white;
+        }
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+        .result {
+            margin-top: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .attraction {
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+        }
+        .plan {
+            white-space: pre-line;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .score {
+            color: #e67e22;
+            font-weight: bold;
+        }
+        .date-range-selector {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .date-range-selector input {
+            flex: 1;
+        }
+        .day-plan {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 15px;
+        }
+        .day-title {
+            color: #3498db;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        /* 新增的区域选择样式 */
+        .area-tabs {
+            margin-bottom: 15px;
+        }
+        .tab-buttons {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .tab-button {
+            padding: 8px 15px;
+            background: #eee;
+            border: none;
+            cursor: pointer;
+        }
+        .tab-button.active {
+            background: #3498db;
+            color: white;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .area-map {
+            margin: 15px 0;
+            padding: 15px;
+            background: #f0f7fc;
+            border-radius: 8px;
+        }
+        .map-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .area {
+            padding: 10px 15px;
+            background: #e8f4fc;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .area:hover {
+            background: #d4e6f7;
+        }
+        .area.selected {
+            background: #3498db;
+            color: white;
+        }
+        .connector {
+            width: 30px;
+            height: 2px;
+            background: #ccc;
+        }
+        .area-features {
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 5px;
+        }
+        .submit-btn {
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>徐州旅游智能推荐系统</h1>
+
+        <form method="POST">
+            <div class="form-group">
+                <label>选择您感兴趣的主题：</label>
+                <div class="checkbox-group">
+                    {% for theme in themes %}
+                    <label class="checkbox-item">
+                        <input type="checkbox" name="themes" value="{{ theme }}">
+                        <span>{{ theme }}</span>
+                    </label>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>选择适合人群：</label>
+                <div class="checkbox-group">
+                    {% for audience in audiences %}
+                    <label class="checkbox-item">
+                        <input type="checkbox" name="audiences" value="{{ audience }}">
+                        <span>{{ audience }}</span>
+                    </label>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>选择游览区域：</label>
+
+                <!-- 区域分组选择 -->
+                <div class="area-tabs">
+                    <div class="tab-buttons">
+                        <button type="button" class="tab-button active" data-tab="city">市区</button>
+                        <button type="button" class="tab-button" data-tab="county">县区</button>
+                    </div>
+
+                    <div class="tab-content active" id="city-tab">
+                        <div class="area-map">
+                            <div class="map-container">
+                                <div class="area" data-area="云龙区">
+                                    云龙区
+                                    <div class="area-features">(汉文化/历史)</div>
+                                </div>
+                                <div class="connector"></div>
+                                <div class="area" data-area="泉山区">
+                                    泉山区
+                                    <div class="area-features">(自然/山水)</div>
+                                </div>
+                                <div class="connector"></div>
+                                <div class="area" data-area="鼓楼区">
+                                    鼓楼区
+                                    <div class="area-features">(商业/购物)</div>
+                                </div>
+                                <div class="area" data-area="铜山区">
+                                    铜山区
+                                    <div class="area-features">(休闲/度假)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox-group">
+                            {% for area in areas if area in ['云龙区','泉山区','鼓楼区','铜山区'] %}
+                            <label class="checkbox-item">
+                                <input type="checkbox" name="areas" value="{{ area }}">
+                                <span>{{ area }}</span>
+                            </label>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="county-tab">
+                        <div class="area-map">
+                            <div class="map-container">
+                                <div class="area" data-area="贾汪区">
+                                    贾汪区
+                                    <div class="area-features">(生态/农家乐)</div>
+                                </div>
+                                <div class="connector"></div>
+                                <div class="area" data-area="邳州市">
+                                    邳州市
+                                    <div class="area-features">(古镇/文化)</div>
+                                </div>
+                                <div class="connector"></div>
+                                <div class="area" data-area="新沂市">
+                                    新沂市
+                                    <div class="area-features">(红色旅游)</div>
+                                </div>
+                                <div class="area" data-area="睢宁县">
+                                    睢宁县
+                                    <div class="area-features">(民俗/非遗)</div>
+                                </div>
+                                <div class="area" data-area="沛县">
+                                    沛县
+                                    <div class="area-features">(历史/美食)</div>
+                                </div>
+                                <div class="area" data-area="丰县">
+                                    丰县
+                                    <div class="area-features">(农业/采摘)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox-group">
+                            {% for area in areas if area not in ['云龙区','泉山区','鼓楼区','铜山区'] %}
+                            <label class="checkbox-item">
+                                <input type="checkbox" name="areas" value="{{ area }}">
+                                <span>{{ area }}</span>
+                            </label>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" id="selected-areas" name="area">
+            </div>
+
+            <div class="form-group">
+                <label>计划游览日期（可选）：</label>
+                <div class="date-range-selector">
+                    <input type="date" name="start_date" placeholder="开始日期">
+                    <span>至</span>
+                    <input type="date" name="end_date" placeholder="结束日期">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>推荐数量：</label>
+                <select name="top_n">
+                    <option value="5" selected>5个</option>
+                    <option value="3">3个</option>
+                    <option value="8">8个</option>
+                    <option value="10">10个</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-btn">生成推荐</button>
+        </form>
+
+        {% if plan %}
+        <div class="result">
+            <h2>推荐景点</h2>
+
+            <div class="attractions">
+                {% for attr in plan.attractions %}
+                <div class="attraction">
+                    <h3>{{ attr.name }} <span class="score">{{ "%.1f"|format(attr.score) }}/5</span></h3>
+                    <p><strong>地址：</strong>{{ attr.address }}</p>
+                    <p><strong>开放时间：</strong>{{ attr.opening_hours }}</p>
+                    <p><strong>特色：</strong>{{ ", ".join(attr.themes) }}</p>
+                    <p>{{ attr.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <h2>智能行程规划</h2>
+            {% if plan.date_plans %}
+                {% for day_plan in plan.date_plans %}
+                <div class="day-plan">
+                    <div class="day-title">{{ day_plan.date }} 行程安排</div>
+                    <div class="plan">{{ day_plan.plan }}</div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="plan">{{ plan.plan }}</div>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // 区域选择交互逻辑
+        document.addEventListener('DOMContentLoaded', function() {
+            // 标签切换
+            const tabButtons = document.querySelectorAll('.tab-button');
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const tabId = this.dataset.tab + '-tab';
+
+                    // 更新按钮状态
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+
+                    // 更新内容显示
+                    document.querySelectorAll('.tab-content').forEach(content => {
+                        content.classList.remove('active');
+                    });
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+
+            // 地图区域点击选择
+            const areaElements = document.querySelectorAll('.area');
+            areaElements.forEach(area => {
+                area.addEventListener('click', function() {
+                    const areaName = this.dataset.area;
+                    const checkbox = document.querySelector(`input[name="areas"][value="${areaName}"]`);
+
+                    if(checkbox) {
+                        checkbox.checked = !checkbox.checked;
+                        if(checkbox.checked) {
+                            this.classList.add('selected');
+                        } else {
+                            this.classList.remove('selected');
+                        }
+                    }
+                });
+            });
+
+            // 同步checkbox和地图选择状态
+            document.querySelectorAll('input[name="areas"]').forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    const areaElement = document.querySelector(`.area[data-area="${this.value}"]`);
+                    if(areaElement) {
+                        if(this.checked) {
+                            areaElement.classList.add('selected');
+                        } else {
+                            areaElement.classList.remove('selected');
+                        }
+                    }
+                });
+            });
+
+            // 表单提交前处理区域选择
+            document.querySelector('form').addEventListener('submit', function(e) {
+                const selectedAreas = Array.from(document.querySelectorAll('input[name="areas"]:checked'))
+                    .map(checkbox => checkbox.value)
+                    .join(',');
+                document.getElementById('selected-areas').value = selectedAreas;
+            });
+        });
+    </script>
+</body>
+</html>

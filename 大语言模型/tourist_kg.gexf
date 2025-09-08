@@ -1,0 +1,3591 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-29">
+    <creator>NetworkX 3.4</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="5" title="relation" type="string" />
+      <attribute id="6" title="networkx_key" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="rating" type="string" />
+      <attribute id="1" title="review_count" type="string" />
+      <attribute id="2" title="address" type="string" />
+      <attribute id="3" title="opening_hours" type="string" />
+      <attribute id="4" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Attraction_龟山汉墓" label="Attraction_龟山汉墓">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(3310)" />
+          <attvalue for="2" value="徐州市鼓楼区襄王北路3号" />
+          <attvalue for="3" value="全年 08:30-17:00开放;全年 08:30-17:30开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Theme_两汉文化" label="Theme_两汉文化">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Theme_历史遗迹" label="Theme_历史遗迹">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Theme_自然风光" label="Theme_自然风光">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Audience_文化爱好者" label="Audience_文化爱好者">
+        <attvalues>
+          <attvalue for="4" value="Audience" />
+        </attvalues>
+      </node>
+      <node id="Area_鼓楼区" label="Area_鼓楼区">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州博物馆" label="Attraction_徐州博物馆">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(1093)" />
+          <attvalue for="2" value="江苏省徐州市云龙区和平路118号" />
+          <attvalue for="3" value="01/01-05/30 周一 全天不开放;06/04-12/31 周一 全天不开放;01/01-05/30 周二-周日 09:00-17:00开放;06/04-12/31 周二-周日 09:00-17:00开放;清明节,劳动节,国庆节 09:00-20:00开放;05/31-06/01 09:00-20:00开放;06/02 09:00-18:00开放;06/03 全天不开放，5月31日（周六）-6月1日（周日）预约延长时段的观众可在当天16:45开始检票入馆&#10;6月2日（周一）预约延长时段的观众可在当天16:00开始检票入馆" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Theme_博物馆" label="Theme_博物馆">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Audience_学生团体" label="Audience_学生团体">
+        <attvalues>
+          <attvalue for="4" value="Audience" />
+        </attvalues>
+      </node>
+      <node id="Audience_老年人" label="Audience_老年人">
+        <attvalues>
+          <attvalue for="4" value="Audience" />
+        </attvalues>
+      </node>
+      <node id="Area_云龙区" label="Area_云龙区">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州汉文化景区" label="Attraction_徐州汉文化景区">
+        <attvalues>
+          <attvalue for="0" value="4.5" />
+          <attvalue for="1" value="(1424)" />
+          <attvalue for="2" value="江苏省徐州市云龙区兵马俑路1号" />
+          <attvalue for="3" value="全年 08:30-17:00开放;全年 08:30-17:30开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州 · 许嵩《呼吸之野》巡回演唱会" label="Attraction_徐州 · 许嵩《呼吸之野》巡回演唱会">
+        <attvalues>
+          <attvalue for="0" value="无评分" />
+          <attvalue for="1" value="(暂无点评)" />
+          <attvalue for="2" value="江苏省徐州市睢宁县新城区汉源大道和峨眉山路交叉口" />
+          <attvalue for="3" value="06/28 周六 19:30-21:30开放，演出开始时间 19:30 ,具体演出时长以现场为准" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Theme_文化演艺" label="Theme_文化演艺">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Audience_年轻人" label="Audience_年轻人">
+        <attvalues>
+          <attvalue for="4" value="Audience" />
+        </attvalues>
+      </node>
+      <node id="Area_睢宁县" label="Area_睢宁县">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_云龙湖旅游景区" label="Attraction_云龙湖旅游景区">
+        <attvalues>
+          <attvalue for="0" value="4.7" />
+          <attvalue for="1" value="(2000)" />
+          <attvalue for="2" value="江苏省徐州市泉山区湖中路" />
+          <attvalue for="3" value="全年 全天开放，游船：9:00-18:00" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Theme_水上活动" label="Theme_水上活动">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Theme_主题乐园" label="Theme_主题乐园">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Audience_情侣" label="Audience_情侣">
+        <attvalues>
+          <attvalue for="4" value="Audience" />
+        </attvalues>
+      </node>
+      <node id="Area_泉山区" label="Area_泉山区">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州方特乐园" label="Attraction_徐州方特乐园">
+        <attvalues>
+          <attvalue for="0" value="4.9" />
+          <attvalue for="1" value="(1134)" />
+          <attvalue for="2" value="江苏省徐州市铜山区张集镇方特大道1号" />
+          <attvalue for="3" value="06/03-06/27 09:30-17:30开放;06/28-08/31 09:30-21:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Audience_亲子家庭" label="Audience_亲子家庭">
+        <attvalues>
+          <attvalue for="4" value="Audience" />
+        </attvalues>
+      </node>
+      <node id="Area_铜山区" label="Area_铜山区">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州乐园欢乐世界" label="Attraction_徐州乐园欢乐世界">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(1584)" />
+          <attvalue for="2" value="江苏省徐州市泉山区金山街道玉带大道9号" />
+          <attvalue for="3" value="05/06-05/30 周一-周五 10:00-21:00开放;05/06-05/30 周六-周日 09:30-21:00开放;05/31-06/02 09:00-22:00开放;06/03-06/20 10:00-18:00开放;06/21-08/31 09:00-22:00开放，夜场票15:00-21:00。6.3-6.20无夜场。" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Theme_城市公园" label="Theme_城市公园">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州欧乐堡海洋极地世界" label="Attraction_徐州欧乐堡海洋极地世界">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(836)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区九里山东路79号" />
+          <attvalue for="3" value="12/31 09:30-17:30开放，开园舞：09:25（海洋接待大厅）&#10;人鱼奇缘：10:30,12:30,14:30,16:30（水下剧场）&#10;海洋大联欢：11:30,15:30（海洋剧场）" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Theme_科普教育" label="Theme_科普教育">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州云龙山索道" label="Attraction_徐州云龙山索道">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(198)" />
+          <attvalue for="2" value="徐州市泉山区云龙山索滑道" />
+          <attvalue for="3" value="05/01-10/08 08:30-18:00开放;10/09-04/30 08:30-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Theme_夜游体验" label="Theme_夜游体验">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Audience_摄影爱好者" label="Audience_摄影爱好者">
+        <attvalues>
+          <attvalue for="4" value="Audience" />
+        </attvalues>
+      </node>
+      <node id="Attraction_彭城风华" label="Attraction_彭城风华">
+        <attvalues>
+          <attvalue for="0" value="4.8" />
+          <attvalue for="1" value="(331)" />
+          <attvalue for="2" value="江苏省徐州市泉山区泉山区湖南路与环湖东路交叉口北60米" />
+          <attvalue for="3" value="06/02-06/22 周一-周四, 周日 18:20-20:40开放;06/24-06/30 周一-周四, 周日 18:20-20:40开放;06/02-06/22 周五-周六 18:20-22:20开放;06/24-06/30 周五-周六 18:20-22:20开放;07/01-07/06 18:20-22:20开放;07/08-07/20 18:20-22:20开放;07/22-07/31 18:20-22:20开放;06/23 全天不开放;07/07 全天不开放;07/21 全天不开放，6月30日、7月7日、7月21日为休演日期；最晚入场时间请以所选场次为准，具体场次开放请关注官方公告；演出需登船观演，迟到将无法入场，建议您在对应演出场次开始前40分钟进入码头区域。" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州乐园度假区" label="Attraction_徐州乐园度假区">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(1614)" />
+          <attvalue for="2" value="江苏省徐州市云龙湖风景区玉带大道9号" />
+          <attvalue for="3" value="06/03-06/20 10:00-18:00开放;06/21-08/31 09:00-22:00开放，夜场15:00后入园。6.3-6.22无夜场" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Area_云龙湖风景区" label="Area_云龙湖风景区">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州九顶山野生动物园" label="Attraction_徐州九顶山野生动物园">
+        <attvalues>
+          <attvalue for="0" value="4.3" />
+          <attvalue for="1" value="(791)" />
+          <attvalue for="2" value="徐州市睢宁县岚山镇观岚路88-1号" />
+          <attvalue for="3" value="01/01-12/31 09:00-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_户部山" label="Attraction_户部山">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(169)" />
+          <attvalue for="2" value="江苏省徐州市云龙区彭城街道崔家巷2号" />
+          <attvalue for="3" value="全年 09:00-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_戏马台" label="Attraction_戏马台">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(554)" />
+          <attvalue for="2" value="江苏省徐州市云龙区户部山项王路1号" />
+          <attvalue for="3" value="全年 09:00-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Theme_宗教文化" label="Theme_宗教文化">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Attraction_督公山漂流" label="Attraction_督公山漂流">
+        <attvalues>
+          <attvalue for="0" value="4.7" />
+          <attvalue for="1" value="(192)" />
+          <attvalue for="2" value="徐州市贾汪区东约5公里督公湖风景区内" />
+          <attvalue for="3" value="05/31-08/31 13:00-15:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Area_贾汪区" label="Area_贾汪区">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_督公湖风景区" label="Attraction_督公湖风景区">
+        <attvalues>
+          <attvalue for="0" value="4.1" />
+          <attvalue for="1" value="(17)" />
+          <attvalue for="2" value="徐州市贾汪区贾汴路" />
+          <attvalue for="3" value="全年 全天开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_云龙山" label="Attraction_云龙山">
+        <attvalues>
+          <attvalue for="0" value="4.7" />
+          <attvalue for="1" value="(400)" />
+          <attvalue for="2" value="江苏省徐州市泉山区湖东路" />
+          <attvalue for="3" value="全年 全天开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_宝莲寺" label="Attraction_宝莲寺">
+        <attvalues>
+          <attvalue for="0" value="4.9" />
+          <attvalue for="1" value="(18)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区金山桥经济开发区宝莲寺路5号" />
+          <attvalue for="3" value="全年 07:00-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_窑湾古镇" label="Attraction_窑湾古镇">
+        <attvalues>
+          <attvalue for="0" value="4.3" />
+          <attvalue for="1" value="(961)" />
+          <attvalue for="2" value="江苏省徐州市新沂市窑湾镇窑炮线与合窑线交汇处" />
+          <attvalue for="3" value="全年 09:00-21:30开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Area_新沂市" label="Area_新沂市">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_狮子山楚王陵" label="Attraction_狮子山楚王陵">
+        <attvalues>
+          <attvalue for="0" value="4.5" />
+          <attvalue for="1" value="(629)" />
+          <attvalue for="2" value="江苏省徐州市云龙区兵马俑路1号汉文化风景区" />
+          <attvalue for="3" value="4/1-10/31 08:30-17:00开放;11/1-3/31 08:30-16:30开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州乐园加勒比水世界" label="Attraction_徐州乐园加勒比水世界">
+        <attvalues>
+          <attvalue for="0" value="4.5" />
+          <attvalue for="1" value="(1878)" />
+          <attvalue for="2" value="徐州市泉山区云龙湖风景区玉带大道9号" />
+          <attvalue for="3" value="06/03-06/20 10:00-18:00开放;06/21-08/31 09:00-22:00开放;05/31-06/02 09:00-19:00开放，夜场票入园时间为15点后。6.3-6.20无夜场。" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州大景山滑雪场" label="Attraction_徐州大景山滑雪场">
+        <attvalues>
+          <attvalue for="0" value="4.2" />
+          <attvalue for="1" value="(472)" />
+          <attvalue for="2" value="江苏省徐州市贾汪区山水大道26号" />
+          <attvalue for="3" value="01/20-01/27 08:30-20:30开放;01/28 08:30-17:00开放;01/29-02/09 08:30-20:30开放;02/10-02/23 08:30-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Theme_冬季运动" label="Theme_冬季运动">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Theme_美食购物" label="Theme_美食购物">
+        <attvalues>
+          <attvalue for="4" value="Theme" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州海底世界" label="Attraction_徐州海底世界">
+        <attvalues>
+          <attvalue for="0" value="4.1" />
+          <attvalue for="1" value="(353)" />
+          <attvalue for="2" value="徐州市泉山区解放南路26-8号三胞国际广场B1" />
+          <attvalue for="3" value="全年 10:00-18:00开放，演出时刻：&#10;11:00   海狮表演&#10;11:30   人鲨共舞&#10;12:00   美人鱼表演&#10;14:00   海狮表演&#10;15:00   大洋池喂食秀&#10;16:00   美人鱼表演&#10;17:00   海狮表演" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州市回龙窝历史文化街区" label="Attraction_徐州市回龙窝历史文化街区">
+        <attvalues>
+          <attvalue for="0" value="4.7" />
+          <attvalue for="1" value="(34)" />
+          <attvalue for="2" value="江苏省徐州市云龙区解放路8号" />
+          <attvalue for="3" value="全年 全天开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_马陵山风景名胜区" label="Attraction_马陵山风景名胜区">
+        <attvalues>
+          <attvalue for="0" value="4.5" />
+          <attvalue for="1" value="(364)" />
+          <attvalue for="2" value="江苏省徐州市新沂市马陵山镇G235西600米" />
+          <attvalue for="3" value="全年 09:00-17:00开放;全年 09:00-17:30开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_大景山漂流" label="Attraction_大景山漂流">
+        <attvalues>
+          <attvalue for="0" value="4.1" />
+          <attvalue for="1" value="(67)" />
+          <attvalue for="2" value="江苏省徐州市贾汪区山水大道东26号" />
+          <attvalue for="3" value="05/24-05/30 周六-周日 13:00-15:00开放;06/14-08/31 13:00-15:00开放;06/03-06/13 周六-周日 13:00-15:00开放;05/24-06/13 周一-周五 全天不开放;端午节 13:00-15:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_大景山景区" label="Attraction_大景山景区">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="(1)" />
+          <attvalue for="2" value="江苏省徐州市贾汪区山水大道东26号(督公湖景区西1公里)" />
+          <attvalue for="3" value="全年 08:30-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_淮海战役纪念馆" label="Attraction_淮海战役纪念馆">
+        <attvalues>
+          <attvalue for="0" value="无评分" />
+          <attvalue for="1" value="(269)" />
+          <attvalue for="2" value="江苏省徐州市泉山区解放南路2号淮海战役烈士纪念塔园林内" />
+          <attvalue for="3" value="全年 周二-周日 09:00-17:30开放;全年 周一 全天不开放;端午节 09:00-18:30开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_淮海战役烈士纪念塔" label="Attraction_淮海战役烈士纪念塔">
+        <attvalues>
+          <attvalue for="0" value="无评分" />
+          <attvalue for="1" value="(暂无点评)" />
+          <attvalue for="2" value="江苏省徐州市泉山区解放南路2号" />
+          <attvalue for="3" value="全年 周二-周日 09:00-17:00开放;全年 周一 全天不开放，具体营业状态以当天开放情况为准" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州园博园" label="Attraction_徐州园博园">
+        <attvalues>
+          <attvalue for="0" value="4.4" />
+          <attvalue for="1" value="(163)" />
+          <attvalue for="2" value="江苏省徐州市铜山区吕梁互通连接线徐州园博园1号门" />
+          <attvalue for="3" value="全年 09:30-17:00开放，具体营业状态以当天开放情况为准" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州圣旨博物馆" label="Attraction_徐州圣旨博物馆">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(87)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区鼓楼区襄王北路3号" />
+          <attvalue for="3" value="全年 9:00-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_潘安湖国家湿地公园" label="Attraction_潘安湖国家湿地公园">
+        <attvalues>
+          <attvalue for="0" value="4.1" />
+          <attvalue for="1" value="(244)" />
+          <attvalue for="2" value="徐州市贾汪区潘安路" />
+          <attvalue for="3" value="11/01-04/30 08:50-17:00开放;05/01-10/31 08:50-17:31开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州欧乐堡童话世界" label="Attraction_徐州欧乐堡童话世界">
+        <attvalues>
+          <attvalue for="0" value="3.6" />
+          <attvalue for="1" value="(27)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区九里山东路79号徐州欧乐堡童话世界" />
+          <attvalue for="3" value="01/01-05/30 周一-周四, 周日 09:30-17:30开放;06/03-12/31 周一-周四, 周日 09:30-17:30开放;01/01-05/30 周五-周六 09:30-20:00开放;06/03-12/31 周五-周六 09:30-20:00开放;05/31-06/02 09:30-20:30开放，开园舞：09:25（海洋接待大厅）&#10;人鱼奇缘：10:30、12:30、14:30、16:30（水下剧场）&#10;海洋大联欢：11:30、15:30（海洋剧场）&#10;&#10;端午节（5.31-6.2）运营时间：&#10;开园舞：08:55（海洋接待大厅）&#10;人鱼奇缘：10:00,11:00,12:00,12:30,14:30,16:30（水下剧场）&#10;海洋大联欢：11:30,15:30（海洋剧场）" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_清明上河园" label="Attraction_清明上河园">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="(2)" />
+          <attvalue for="2" value="徐州市鼓楼区奔腾大道山南小镇-B区" />
+          <attvalue for="3" value="NaN" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_汉兵马俑博物馆" label="Attraction_汉兵马俑博物馆">
+        <attvalues>
+          <attvalue for="0" value="4.4" />
+          <attvalue for="1" value="(138)" />
+          <attvalue for="2" value="江苏省徐州市云龙区骆驼山街道兵马俑路1号" />
+          <attvalue for="3" value="全年 08:30-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州开元森泊焕境乐园" label="Attraction_徐州开元森泊焕境乐园">
+        <attvalues>
+          <attvalue for="0" value="3.2" />
+          <attvalue for="1" value="(6)" />
+          <attvalue for="2" value="徐州市泉山区湖西路1号" />
+          <attvalue for="3" value="全年 09:00-18:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_乾隆行宫(和平路)" label="Attraction_乾隆行宫(和平路)">
+        <attvalues>
+          <attvalue for="0" value="4.4" />
+          <attvalue for="1" value="(5)" />
+          <attvalue for="2" value="江苏省徐州市云龙区和平路118号" />
+          <attvalue for="3" value="全年 周二-周日 09:00-17:00开放;全年 周一 全天不开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_彭祖园" label="Attraction_彭祖园">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(112)" />
+          <attvalue for="2" value="江苏省徐州市泉山区泰山路21号" />
+          <attvalue for="3" value="全年 全天开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_户部山古建筑群" label="Attraction_户部山古建筑群">
+        <attvalues>
+          <attvalue for="0" value="4.4" />
+          <attvalue for="1" value="(172)" />
+          <attvalue for="2" value="江苏省徐州市云龙区彭城街道户部茶街1号" />
+          <attvalue for="3" value="全年 09:00-16:30开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_中国国家地理《探索 极致发现》科学艺术影像展" label="Attraction_中国国家地理《探索 极致发现》科学艺术影像展">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="(1)" />
+          <attvalue for="2" value="江苏省徐州市沛县和平大道与东三环快速路交汇处(黄山垅地铁站旁)爱琴海购物中心五楼" />
+          <attvalue for="3" value="04/03-10/19 周四-周日 全天开放;04/03-10/19 周一-周三 全天不开放，开始时间及时长以现场为准" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Area_沛县" label="Area_沛县">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_彭城广场" label="Attraction_彭城广场">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(29)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区中山北路2号" />
+          <attvalue for="3" value="全年 全天开放，具体营业状态以当天开放情况为准" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_艾山风景名胜区" label="Attraction_艾山风景名胜区">
+        <attvalues>
+          <attvalue for="0" value="4.4" />
+          <attvalue for="1" value="(288)" />
+          <attvalue for="2" value="江苏省徐州市邳州市铁富镇G310与邳铁线交汇处" />
+          <attvalue for="3" value="全年 08:30-16:30开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Area_邳州市" label="Area_邳州市">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州民俗博物馆" label="Attraction_徐州民俗博物馆">
+        <attvalues>
+          <attvalue for="0" value="4.5" />
+          <attvalue for="1" value="(83)" />
+          <attvalue for="2" value="江苏省徐州市云龙区户部山崔家巷2号" />
+          <attvalue for="3" value="全年 09:00-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_泰山" label="Attraction_泰山">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="(3)" />
+          <attvalue for="2" value="江苏省徐州市泉山区泰山路与金山东路交叉口东北150米" />
+          <attvalue for="3" value="NaN" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州 · 【肆笑喜剧】丨爆笑脱口秀" label="Attraction_徐州 · 【肆笑喜剧】丨爆笑脱口秀">
+        <attvalues>
+          <attvalue for="0" value="无评分" />
+          <attvalue for="1" value="(暂无点评)" />
+          <attvalue for="2" value="江苏省徐州市徐州市鼓楼区金地商都一期四层033商铺" />
+          <attvalue for="3" value="待定，演出时间及演出时长以现场为准" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Area_徐州市" label="Area_徐州市">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_壹捌夜市" label="Attraction_壹捌夜市">
+        <attvalues>
+          <attvalue for="0" value="4.5" />
+          <attvalue for="1" value="(2)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区黄楼街道中山北路8号" />
+          <attvalue for="3" value="1/1-12/31 全天开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_刘邦故里文化景区" label="Attraction_刘邦故里文化景区">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="(1)" />
+          <attvalue for="2" value="江苏省徐州市丰县518国道赵庄镇金刘寨村汉皇祖陵内(南侧)" />
+          <attvalue for="3" value="全年 08:30-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Area_丰县" label="Area_丰县">
+        <attvalues>
+          <attvalue for="4" value="Area" />
+        </attvalues>
+      </node>
+      <node id="Attraction_水下兵马俑馆" label="Attraction_水下兵马俑馆">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="(6)" />
+          <attvalue for="2" value="徐州市云龙区兵马俑路1号" />
+          <attvalue for="3" value="具体开放时间请咨询景区" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州动物园" label="Attraction_徐州动物园">
+        <attvalues>
+          <attvalue for="0" value="4.2" />
+          <attvalue for="1" value="(79)" />
+          <attvalue for="2" value="徐州市泉山区泰山路21-1号" />
+          <attvalue for="3" value="全年 08:00-17:30开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州小桂林" label="Attraction_徐州小桂林">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="(1)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区江苏省徐州鼓楼区中山北路九里山高尔夫球场院内" />
+          <attvalue for="3" value="具体营业状态以当天开放情况为准" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_茱萸山滑雪场" label="Attraction_茱萸山滑雪场">
+        <attvalues>
+          <attvalue for="0" value="4.7" />
+          <attvalue for="1" value="(11)" />
+          <attvalue for="2" value="江苏省徐州市贾汪区茱萸路茱萸欢乐谷旁边" />
+          <attvalue for="3" value="12/20-02/28 09:00-21:00开放;03/01-12/19 全天不开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州督公山滑雪乐园" label="Attraction_徐州督公山滑雪乐园">
+        <attvalues>
+          <attvalue for="0" value="4.3" />
+          <attvalue for="1" value="(136)" />
+          <attvalue for="2" value="江苏省徐州市贾汪区徐州东城绕越高速督公湖风景区内" />
+          <attvalue for="3" value="12/20-03/02 08:00-17:00开放;03/03-06/08 全天不开放;06/09-10/07 08:00-17:00开放;10/08-12/19 全天不开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_墨上集·拾光影城" label="Attraction_墨上集·拾光影城">
+        <attvalues>
+          <attvalue for="0" value="3.8" />
+          <attvalue for="1" value="(10)" />
+          <attvalue for="2" value="江苏省徐州市贾汪区龙山路与山水大道交汇处北墨上集" />
+          <attvalue for="3" value="01/08-01/28 09:00-18:00开放;02/04-04/30 09:00-18:00开放;05/06-12/31 09:00-18:00开放;01/29-02/03 09:00-20:00开放;05/01-05/05 09:00-20:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州启迪乔波冰雪世界" label="Attraction_徐州启迪乔波冰雪世界">
+        <attvalues>
+          <attvalue for="0" value="4.5" />
+          <attvalue for="1" value="(10)" />
+          <attvalue for="2" value="江苏省徐州市云龙区翠屏山街道和平大道118号万科新淮中心F1" />
+          <attvalue for="3" value="全年 周一-周四 10:00-18:00开放;全年 周五-周日 10:00-20:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_点石园石刻艺术馆" label="Attraction_点石园石刻艺术馆">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(27)" />
+          <attvalue for="2" value="徐州市鼓楼区襄王北路3号" />
+          <attvalue for="3" value="5/1-9/30 08:30-17:30开放;10/1-4/30 08:30-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州吕梁风景区" label="Attraction_徐州吕梁风景区">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(5)" />
+          <attvalue for="2" value="徐州市铜山区X309" />
+          <attvalue for="3" value="全年 全天开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州轮胎乐园" label="Attraction_徐州轮胎乐园">
+        <attvalues>
+          <attvalue for="0" value="4.8" />
+          <attvalue for="1" value="(22)" />
+          <attvalue for="2" value="徐州市铜山区汉王镇纪信路轮胎乐园（月亮湾马术俱乐部隔壁）" />
+          <attvalue for="3" value="全年 周一-周五 09:00-17:00开放;全年 周六-周日 09:00-17:30开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州园博园涵田度假村温泉" label="Attraction_徐州园博园涵田度假村温泉">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="(8)" />
+          <attvalue for="2" value="江苏省徐州市铜山区309县道崔贺庄水库管理所隔壁（吕梁风景区内）" />
+          <attvalue for="3" value="07/05-12/31 周五-周六 12:00-23:22开放;07/05-12/31 周日 10:00-21:00开放;07/05-12/31 周一-周四 全天不开放;06/10-07/04 周六 10:00-22:00开放;06/10-07/04 周日 10:00-20:00开放;06/10-07/04 周一-周五 全天不开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_小南湖" label="Attraction_小南湖">
+        <attvalues>
+          <attvalue for="0" value="4.8" />
+          <attvalue for="1" value="(98)" />
+          <attvalue for="2" value="江苏省徐州市泉山区金山南路徐州云龙湖风景区内" />
+          <attvalue for="3" value="全年 全天开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州蟠桃山佛教文化景区" label="Attraction_徐州蟠桃山佛教文化景区">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(163)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区鼓楼区经济技术开发区宝莲寺路5号" />
+          <attvalue for="3" value="全年 07:00-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_沛县汉城景区" label="Attraction_沛县汉城景区">
+        <attvalues>
+          <attvalue for="0" value="4.3" />
+          <attvalue for="1" value="(104)" />
+          <attvalue for="2" value="江苏省徐州市沛县汉城南路1号" />
+          <attvalue for="3" value="全年 08:30-17:00开放，具体营业状态以当天开放情况为准" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州百乐汤汗蒸汤泉" label="Attraction_徐州百乐汤汗蒸汤泉">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="(4)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区环城路63号和信广场三期G座B1层商铺" />
+          <attvalue for="3" value="全年 全天开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州金龙湖风景区" label="Attraction_徐州金龙湖风景区">
+        <attvalues>
+          <attvalue for="0" value="4.9" />
+          <attvalue for="1" value="(95)" />
+          <attvalue for="2" value="江苏省徐州市睢宁县江苏省徐州经济开发区龙湖西路与龙湖南路交叉口东北角" />
+          <attvalue for="3" value="全年 全天开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_沛县博物馆" label="Attraction_沛县博物馆">
+        <attvalues>
+          <attvalue for="0" value="4.9" />
+          <attvalue for="1" value="(10)" />
+          <attvalue for="2" value="江苏省徐州市沛县汉邦路7号" />
+          <attvalue for="3" value="1/1-12/31 08:30-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州汉画像石馆" label="Attraction_徐州汉画像石馆">
+        <attvalues>
+          <attvalue for="0" value="4.7" />
+          <attvalue for="1" value="(91)" />
+          <attvalue for="2" value="江苏省徐州市泉山区云龙湖东路5-1号" />
+          <attvalue for="3" value="全年 周二-周日 09:00-17:00开放;全年 周一 全天不开放;元旦节,春节,清明节,劳动节,端午节,中秋节,国庆节 09:00-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州水族展览馆" label="Attraction_徐州水族展览馆">
+        <attvalues>
+          <attvalue for="0" value="4.4" />
+          <attvalue for="1" value="(119)" />
+          <attvalue for="2" value="江苏省徐州市泉山区湖中路1号" />
+          <attvalue for="3" value="全年 09:00-17:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_兴化禅寺" label="Attraction_兴化禅寺">
+        <attvalues>
+          <attvalue for="0" value="4.4" />
+          <attvalue for="1" value="(26)" />
+          <attvalue for="2" value="徐州市泉山区云东一道街32号" />
+          <attvalue for="3" value="全年 08:00-17:00开放;全年 08:00-16:30开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州城下城遗址博物馆" label="Attraction_徐州城下城遗址博物馆">
+        <attvalues>
+          <attvalue for="0" value="无评分" />
+          <attvalue for="1" value="(暂无点评)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区中山北路彭城广场地下" />
+          <attvalue for="3" value="全年 周二-周日 10:00-21:00开放，每周一闭馆（法定节假日除）。" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_歌风台" label="Attraction_歌风台">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="(66)" />
+          <attvalue for="2" value="徐州市沛县汉街沛县汉城景区" />
+          <attvalue for="3" value="全年 06:30-17:30开放;全年 18:30-22:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_通天阁" label="Attraction_通天阁">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="(1)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区宝莲寺路5号宝莲寺内" />
+          <attvalue for="3" value="NaN" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_东兴街夜市(万达广场徐州云龙店)" label="Attraction_东兴街夜市(万达广场徐州云龙店)">
+        <attvalues>
+          <attvalue for="0" value="无评分" />
+          <attvalue for="1" value="(暂无点评)" />
+          <attvalue for="2" value="江苏省徐州市云龙区和平大道58号万达广场F1" />
+          <attvalue for="3" value="全年 12:00-23:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州之夜" label="Attraction_徐州之夜">
+        <attvalues>
+          <attvalue for="0" value="无评分" />
+          <attvalue for="1" value="(暂无点评)" />
+          <attvalue for="2" value="徐州市贾汪区湖西路与乌金路交叉路口往南约260米" />
+          <attvalue for="3" value="NaN" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_老东门今雨天地街区" label="Attraction_老东门今雨天地街区">
+        <attvalues>
+          <attvalue for="0" value="4.1" />
+          <attvalue for="1" value="(54)" />
+          <attvalue for="2" value="江苏省徐州市云龙区淮海东路104号" />
+          <attvalue for="3" value="具体营业状态以当天开放情况为准" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_户部山步行街" label="Attraction_户部山步行街">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="(4)" />
+          <attvalue for="2" value="江苏省徐州市云龙区云龙区" />
+          <attvalue for="3" value="具体营业状态以当天开放情况为准" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州文庙东方街区-鼓楼" label="Attraction_徐州文庙东方街区-鼓楼">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="(1)" />
+          <attvalue for="2" value="江苏省徐州市鼓楼区文庙街区(彭城广场地铁站18号口步行100米)" />
+          <attvalue for="3" value="NaN" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_大运河" label="Attraction_大运河">
+        <attvalues>
+          <attvalue for="0" value="4.8" />
+          <attvalue for="1" value="(88)" />
+          <attvalue for="2" value="徐州市邳州市京杭运河(沿河路南200米)" />
+          <attvalue for="3" value="全年 全天开放，具体开放时间以景区现场公示为准。" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州方特水上乐园" label="Attraction_徐州方特水上乐园">
+        <attvalues>
+          <attvalue for="0" value="4.8" />
+          <attvalue for="1" value="(5)" />
+          <attvalue for="2" value="徐州市铜山区方特大道1号" />
+          <attvalue for="3" value="06/03-06/27 10:00-17:00开放;06/28-07/31 10:00-21:00开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_苏轼纪念馆" label="Attraction_苏轼纪念馆">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="(1)" />
+          <attvalue for="2" value="江苏省徐州市泉山区珠山东路云龙湖旅游景区苏公岛" />
+          <attvalue for="3" value="全年 09:00-17:30开放，具体营业状态以当天开放情况为准" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_邳州银杏时光隧道景区" label="Attraction_邳州银杏时光隧道景区">
+        <attvalues>
+          <attvalue for="0" value="4.6" />
+          <attvalue for="1" value="(50)" />
+          <attvalue for="2" value="江苏省徐州市邳州市G310与铁铁线交叉口西南侧800米" />
+          <attvalue for="3" value="NaN" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+      <node id="Attraction_徐州大龙湖风景区" label="Attraction_徐州大龙湖风景区">
+        <attvalues>
+          <attvalue for="0" value="4.9" />
+          <attvalue for="1" value="(88)" />
+          <attvalue for="2" value="江苏省徐州市云龙区环湖路(大龙湖地铁站旁)" />
+          <attvalue for="3" value="全年 全天开放" />
+          <attvalue for="4" value="Attraction" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Attraction_龟山汉墓" target="Theme_两汉文化" id="0" weight="14">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_龟山汉墓" target="Theme_历史遗迹" id="1" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_龟山汉墓" target="Theme_自然风光" id="2" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_龟山汉墓" target="Audience_文化爱好者" id="3" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_龟山汉墓" target="Area_鼓楼区" id="4" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州博物馆" target="Theme_两汉文化" id="5" weight="21">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州博物馆" target="Theme_博物馆" id="6" weight="14">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州博物馆" target="Theme_历史遗迹" id="7" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州博物馆" target="Audience_文化爱好者" id="8" weight="15">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州博物馆" target="Audience_学生团体" id="9" weight="5">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州博物馆" target="Audience_老年人" id="10" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州博物馆" target="Area_云龙区" id="11" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉文化景区" target="Theme_两汉文化" id="12" weight="20">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉文化景区" target="Theme_历史遗迹" id="13" weight="9">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉文化景区" target="Theme_博物馆" id="14" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉文化景区" target="Audience_文化爱好者" id="15" weight="12">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉文化景区" target="Audience_学生团体" id="16" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉文化景区" target="Audience_老年人" id="17" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉文化景区" target="Area_云龙区" id="18" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州 · 许嵩《呼吸之野》巡回演唱会" target="Theme_自然风光" id="19" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州 · 许嵩《呼吸之野》巡回演唱会" target="Theme_文化演艺" id="20" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州 · 许嵩《呼吸之野》巡回演唱会" target="Audience_年轻人" id="21" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州 · 许嵩《呼吸之野》巡回演唱会" target="Area_睢宁县" id="22" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙湖旅游景区" target="Theme_自然风光" id="23" weight="10">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙湖旅游景区" target="Theme_水上活动" id="24" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙湖旅游景区" target="Theme_主题乐园" id="25" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙湖旅游景区" target="Audience_文化爱好者" id="26" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙湖旅游景区" target="Audience_老年人" id="27" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙湖旅游景区" target="Audience_情侣" id="28" weight="5">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙湖旅游景区" target="Area_泉山区" id="29" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特乐园" target="Theme_主题乐园" id="30" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特乐园" target="Theme_自然风光" id="31" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特乐园" target="Theme_水上活动" id="32" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特乐园" target="Audience_亲子家庭" id="33" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特乐园" target="Audience_年轻人" id="34" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特乐园" target="Audience_老年人" id="35" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特乐园" target="Area_铜山区" id="36" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园欢乐世界" target="Theme_自然风光" id="37" weight="10">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园欢乐世界" target="Theme_主题乐园" id="38" weight="10">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园欢乐世界" target="Theme_城市公园" id="39" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园欢乐世界" target="Audience_亲子家庭" id="40" weight="10">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园欢乐世界" target="Audience_学生团体" id="41" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园欢乐世界" target="Audience_老年人" id="42" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园欢乐世界" target="Area_泉山区" id="43" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡海洋极地世界" target="Theme_文化演艺" id="44" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡海洋极地世界" target="Theme_主题乐园" id="45" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡海洋极地世界" target="Theme_科普教育" id="46" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡海洋极地世界" target="Audience_学生团体" id="47" weight="12">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡海洋极地世界" target="Audience_老年人" id="48" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡海洋极地世界" target="Audience_文化爱好者" id="49" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡海洋极地世界" target="Area_鼓楼区" id="50" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州云龙山索道" target="Theme_自然风光" id="51" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州云龙山索道" target="Theme_夜游体验" id="52" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州云龙山索道" target="Audience_摄影爱好者" id="53" weight="1">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州云龙山索道" target="Audience_情侣" id="54" weight="1">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州云龙山索道" target="Audience_年轻人" id="55" weight="1">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州云龙山索道" target="Area_泉山区" id="56" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭城风华" target="Theme_文化演艺" id="57" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭城风华" target="Theme_自然风光" id="58" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭城风华" target="Theme_水上活动" id="59" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭城风华" target="Audience_年轻人" id="60" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭城风华" target="Audience_情侣" id="61" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭城风华" target="Area_泉山区" id="62" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园度假区" target="Theme_自然风光" id="63" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园度假区" target="Theme_主题乐园" id="64" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园度假区" target="Theme_水上活动" id="65" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园度假区" target="Audience_年轻人" id="66" weight="5">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园度假区" target="Audience_老年人" id="67" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园度假区" target="Audience_文化爱好者" id="68" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园度假区" target="Area_云龙湖风景区" id="69" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州九顶山野生动物园" target="Theme_主题乐园" id="70" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州九顶山野生动物园" target="Theme_文化演艺" id="71" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州九顶山野生动物园" target="Theme_自然风光" id="72" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州九顶山野生动物园" target="Audience_学生团体" id="73" weight="9">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州九顶山野生动物园" target="Audience_亲子家庭" id="74" weight="8">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州九顶山野生动物园" target="Audience_老年人" id="75" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州九顶山野生动物园" target="Area_睢宁县" id="76" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山" target="Theme_两汉文化" id="77" weight="9">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山" target="Theme_历史遗迹" id="78" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山" target="Theme_自然风光" id="79" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山" target="Audience_文化爱好者" id="80" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山" target="Audience_学生团体" id="81" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山" target="Audience_老年人" id="82" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山" target="Area_云龙区" id="83" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_戏马台" target="Theme_两汉文化" id="84" weight="9">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_戏马台" target="Theme_历史遗迹" id="85" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_戏马台" target="Theme_宗教文化" id="86" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_戏马台" target="Area_云龙区" id="87" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_督公山漂流" target="Theme_自然风光" id="88" weight="10">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_督公山漂流" target="Theme_主题乐园" id="89" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_督公山漂流" target="Theme_水上活动" id="90" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_督公山漂流" target="Audience_年轻人" id="91" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_督公山漂流" target="Audience_亲子家庭" id="92" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_督公山漂流" target="Audience_老年人" id="93" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_督公山漂流" target="Area_贾汪区" id="94" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_督公湖风景区" target="Theme_自然风光" id="95" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_督公湖风景区" target="Audience_老年人" id="96" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_督公湖风景区" target="Audience_摄影爱好者" id="97" weight="1">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_督公湖风景区" target="Area_贾汪区" id="98" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙山" target="Theme_宗教文化" id="99" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙山" target="Theme_历史遗迹" id="100" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙山" target="Theme_博物馆" id="101" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙山" target="Audience_文化爱好者" id="102" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙山" target="Audience_学生团体" id="103" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙山" target="Audience_老年人" id="104" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_云龙山" target="Area_泉山区" id="105" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_宝莲寺" target="Theme_宗教文化" id="106" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_宝莲寺" target="Theme_自然风光" id="107" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_宝莲寺" target="Theme_文化演艺" id="108" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_宝莲寺" target="Audience_文化爱好者" id="109" weight="9">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_宝莲寺" target="Audience_学生团体" id="110" weight="9">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_宝莲寺" target="Audience_老年人" id="111" weight="8">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_宝莲寺" target="Area_鼓楼区" id="112" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_窑湾古镇" target="Theme_自然风光" id="113" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_窑湾古镇" target="Theme_历史遗迹" id="114" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_窑湾古镇" target="Theme_宗教文化" id="115" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_窑湾古镇" target="Audience_文化爱好者" id="116" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_窑湾古镇" target="Audience_学生团体" id="117" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_窑湾古镇" target="Audience_老年人" id="118" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_窑湾古镇" target="Area_新沂市" id="119" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_狮子山楚王陵" target="Theme_两汉文化" id="120" weight="17">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_狮子山楚王陵" target="Theme_历史遗迹" id="121" weight="9">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_狮子山楚王陵" target="Theme_博物馆" id="122" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_狮子山楚王陵" target="Audience_文化爱好者" id="123" weight="12">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_狮子山楚王陵" target="Audience_学生团体" id="124" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_狮子山楚王陵" target="Audience_老年人" id="125" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_狮子山楚王陵" target="Area_云龙区" id="126" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园加勒比水世界" target="Theme_水上活动" id="127" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园加勒比水世界" target="Theme_主题乐园" id="128" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园加勒比水世界" target="Theme_自然风光" id="129" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园加勒比水世界" target="Audience_年轻人" id="130" weight="5">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园加勒比水世界" target="Audience_亲子家庭" id="131" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园加勒比水世界" target="Audience_老年人" id="132" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州乐园加勒比水世界" target="Area_泉山区" id="133" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州大景山滑雪场" target="Theme_冬季运动" id="134" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州大景山滑雪场" target="Theme_自然风光" id="135" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州大景山滑雪场" target="Theme_美食购物" id="136" weight="1">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州大景山滑雪场" target="Audience_年轻人" id="137" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州大景山滑雪场" target="Area_贾汪区" id="138" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州海底世界" target="Theme_科普教育" id="139" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州海底世界" target="Theme_文化演艺" id="140" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州海底世界" target="Theme_夜游体验" id="141" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州海底世界" target="Audience_学生团体" id="142" weight="9">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州海底世界" target="Audience_文化爱好者" id="143" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州海底世界" target="Audience_情侣" id="144" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州海底世界" target="Area_泉山区" id="145" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州市回龙窝历史文化街区" target="Theme_历史遗迹" id="146" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州市回龙窝历史文化街区" target="Theme_美食购物" id="147" weight="1">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州市回龙窝历史文化街区" target="Audience_文化爱好者" id="148" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州市回龙窝历史文化街区" target="Audience_学生团体" id="149" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州市回龙窝历史文化街区" target="Audience_老年人" id="150" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州市回龙窝历史文化街区" target="Area_云龙区" id="151" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_马陵山风景名胜区" target="Theme_自然风光" id="152" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_马陵山风景名胜区" target="Theme_历史遗迹" id="153" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_马陵山风景名胜区" target="Theme_宗教文化" id="154" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_马陵山风景名胜区" target="Audience_文化爱好者" id="155" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_马陵山风景名胜区" target="Audience_年轻人" id="156" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_马陵山风景名胜区" target="Audience_老年人" id="157" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_马陵山风景名胜区" target="Area_新沂市" id="158" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大景山漂流" target="Theme_自然风光" id="159" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大景山漂流" target="Theme_水上活动" id="160" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大景山漂流" target="Audience_年轻人" id="161" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大景山漂流" target="Area_贾汪区" id="162" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大景山景区" target="Theme_自然风光" id="163" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大景山景区" target="Audience_老年人" id="164" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大景山景区" target="Area_贾汪区" id="165" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_淮海战役纪念馆" target="Theme_博物馆" id="166" weight="11">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_淮海战役纪念馆" target="Theme_科普教育" id="167" weight="1">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_淮海战役纪念馆" target="Audience_文化爱好者" id="168" weight="12">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_淮海战役纪念馆" target="Audience_学生团体" id="169" weight="5">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_淮海战役纪念馆" target="Audience_老年人" id="170" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_淮海战役纪念馆" target="Area_泉山区" id="171" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_淮海战役烈士纪念塔" target="Theme_自然风光" id="172" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_淮海战役烈士纪念塔" target="Area_泉山区" id="173" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州园博园" target="Area_铜山区" id="174" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州圣旨博物馆" target="Theme_博物馆" id="175" weight="14">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州圣旨博物馆" target="Theme_两汉文化" id="176" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州圣旨博物馆" target="Theme_自然风光" id="177" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州圣旨博物馆" target="Audience_文化爱好者" id="178" weight="9">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州圣旨博物馆" target="Audience_学生团体" id="179" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州圣旨博物馆" target="Area_鼓楼区" id="180" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_潘安湖国家湿地公园" target="Theme_自然风光" id="181" weight="10">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_潘安湖国家湿地公园" target="Theme_历史遗迹" id="182" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_潘安湖国家湿地公园" target="Theme_宗教文化" id="183" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_潘安湖国家湿地公园" target="Audience_老年人" id="184" weight="8">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_潘安湖国家湿地公园" target="Audience_亲子家庭" id="185" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_潘安湖国家湿地公园" target="Audience_文化爱好者" id="186" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_潘安湖国家湿地公园" target="Area_贾汪区" id="187" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡童话世界" target="Theme_主题乐园" id="188" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡童话世界" target="Theme_科普教育" id="189" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡童话世界" target="Theme_自然风光" id="190" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡童话世界" target="Audience_亲子家庭" id="191" weight="14">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡童话世界" target="Audience_学生团体" id="192" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡童话世界" target="Audience_文化爱好者" id="193" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州欧乐堡童话世界" target="Area_鼓楼区" id="194" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_清明上河园" target="Theme_自然风光" id="195" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_清明上河园" target="Audience_文化爱好者" id="196" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_清明上河园" target="Audience_学生团体" id="197" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_清明上河园" target="Audience_老年人" id="198" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_清明上河园" target="Area_鼓楼区" id="199" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_汉兵马俑博物馆" target="Theme_博物馆" id="200" weight="11">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_汉兵马俑博物馆" target="Theme_两汉文化" id="201" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_汉兵马俑博物馆" target="Theme_历史遗迹" id="202" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_汉兵马俑博物馆" target="Audience_文化爱好者" id="203" weight="21">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_汉兵马俑博物馆" target="Audience_学生团体" id="204" weight="8">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_汉兵马俑博物馆" target="Audience_老年人" id="205" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_汉兵马俑博物馆" target="Area_云龙区" id="206" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州开元森泊焕境乐园" target="Theme_自然风光" id="207" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州开元森泊焕境乐园" target="Theme_主题乐园" id="208" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州开元森泊焕境乐园" target="Theme_夜游体验" id="209" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州开元森泊焕境乐园" target="Audience_亲子家庭" id="210" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州开元森泊焕境乐园" target="Audience_学生团体" id="211" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州开元森泊焕境乐园" target="Audience_摄影爱好者" id="212" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州开元森泊焕境乐园" target="Area_泉山区" id="213" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_乾隆行宫(和平路)" target="Theme_历史遗迹" id="214" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_乾隆行宫(和平路)" target="Theme_博物馆" id="215" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_乾隆行宫(和平路)" target="Theme_宗教文化" id="216" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_乾隆行宫(和平路)" target="Audience_文化爱好者" id="217" weight="15">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_乾隆行宫(和平路)" target="Audience_学生团体" id="218" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_乾隆行宫(和平路)" target="Audience_老年人" id="219" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_乾隆行宫(和平路)" target="Area_云龙区" id="220" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭祖园" target="Theme_自然风光" id="221" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭祖园" target="Theme_主题乐园" id="222" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭祖园" target="Theme_文化演艺" id="223" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭祖园" target="Audience_亲子家庭" id="224" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭祖园" target="Audience_老年人" id="225" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭祖园" target="Audience_摄影爱好者" id="226" weight="1">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭祖园" target="Area_泉山区" id="227" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山古建筑群" target="Theme_自然风光" id="228" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山古建筑群" target="Theme_历史遗迹" id="229" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山古建筑群" target="Audience_文化爱好者" id="230" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山古建筑群" target="Audience_学生团体" id="231" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山古建筑群" target="Audience_老年人" id="232" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山古建筑群" target="Area_云龙区" id="233" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_中国国家地理《探索 极致发现》科学艺术影像展" target="Theme_自然风光" id="234" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_中国国家地理《探索 极致发现》科学艺术影像展" target="Theme_文化演艺" id="235" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_中国国家地理《探索 极致发现》科学艺术影像展" target="Theme_科普教育" id="236" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_中国国家地理《探索 极致发现》科学艺术影像展" target="Audience_文化爱好者" id="237" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_中国国家地理《探索 极致发现》科学艺术影像展" target="Audience_学生团体" id="238" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_中国国家地理《探索 极致发现》科学艺术影像展" target="Audience_情侣" id="239" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_中国国家地理《探索 极致发现》科学艺术影像展" target="Area_沛县" id="240" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭城广场" target="Theme_两汉文化" id="241" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭城广场" target="Theme_城市公园" id="242" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_彭城广场" target="Area_鼓楼区" id="243" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_艾山风景名胜区" target="Theme_宗教文化" id="244" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_艾山风景名胜区" target="Theme_自然风光" id="245" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_艾山风景名胜区" target="Theme_历史遗迹" id="246" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_艾山风景名胜区" target="Audience_摄影爱好者" id="247" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_艾山风景名胜区" target="Area_邳州市" id="248" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州民俗博物馆" target="Theme_博物馆" id="249" weight="11">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州民俗博物馆" target="Theme_自然风光" id="250" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州民俗博物馆" target="Theme_文化演艺" id="251" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州民俗博物馆" target="Audience_文化爱好者" id="252" weight="18">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州民俗博物馆" target="Audience_学生团体" id="253" weight="8">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州民俗博物馆" target="Audience_老年人" id="254" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州民俗博物馆" target="Area_云龙区" id="255" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_泰山" target="Theme_自然风光" id="256" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_泰山" target="Area_泉山区" id="257" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州 · 【肆笑喜剧】丨爆笑脱口秀" target="Area_徐州市" id="258" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_壹捌夜市" target="Theme_美食购物" id="259" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_壹捌夜市" target="Theme_自然风光" id="260" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_壹捌夜市" target="Theme_主题乐园" id="261" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_壹捌夜市" target="Audience_文化爱好者" id="262" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_壹捌夜市" target="Audience_学生团体" id="263" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_壹捌夜市" target="Audience_亲子家庭" id="264" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_壹捌夜市" target="Area_鼓楼区" id="265" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_刘邦故里文化景区" target="Theme_两汉文化" id="266" weight="9">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_刘邦故里文化景区" target="Theme_自然风光" id="267" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_刘邦故里文化景区" target="Audience_文化爱好者" id="268" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_刘邦故里文化景区" target="Audience_学生团体" id="269" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_刘邦故里文化景区" target="Audience_老年人" id="270" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_刘邦故里文化景区" target="Area_丰县" id="271" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_水下兵马俑馆" target="Theme_两汉文化" id="272" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_水下兵马俑馆" target="Theme_博物馆" id="273" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_水下兵马俑馆" target="Audience_文化爱好者" id="274" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_水下兵马俑馆" target="Area_云龙区" id="275" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州动物园" target="Theme_自然风光" id="276" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州动物园" target="Theme_文化演艺" id="277" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州动物园" target="Audience_亲子家庭" id="278" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州动物园" target="Audience_摄影爱好者" id="279" weight="1">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州动物园" target="Area_泉山区" id="280" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州小桂林" target="Theme_自然风光" id="281" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州小桂林" target="Audience_摄影爱好者" id="282" weight="1">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州小桂林" target="Area_鼓楼区" id="283" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_茱萸山滑雪场" target="Theme_冬季运动" id="284" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_茱萸山滑雪场" target="Theme_自然风光" id="285" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_茱萸山滑雪场" target="Theme_主题乐园" id="286" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_茱萸山滑雪场" target="Audience_亲子家庭" id="287" weight="8">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_茱萸山滑雪场" target="Audience_年轻人" id="288" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_茱萸山滑雪场" target="Audience_老年人" id="289" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_茱萸山滑雪场" target="Area_贾汪区" id="290" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州督公山滑雪乐园" target="Theme_自然风光" id="291" weight="10">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州督公山滑雪乐园" target="Theme_冬季运动" id="292" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州督公山滑雪乐园" target="Theme_主题乐园" id="293" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州督公山滑雪乐园" target="Audience_年轻人" id="294" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州督公山滑雪乐园" target="Audience_亲子家庭" id="295" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州督公山滑雪乐园" target="Audience_摄影爱好者" id="296" weight="1">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州督公山滑雪乐园" target="Area_贾汪区" id="297" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_墨上集·拾光影城" target="Theme_自然风光" id="298" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_墨上集·拾光影城" target="Theme_主题乐园" id="299" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_墨上集·拾光影城" target="Theme_文化演艺" id="300" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_墨上集·拾光影城" target="Audience_文化爱好者" id="301" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_墨上集·拾光影城" target="Audience_老年人" id="302" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_墨上集·拾光影城" target="Audience_学生团体" id="303" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_墨上集·拾光影城" target="Area_贾汪区" id="304" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州启迪乔波冰雪世界" target="Theme_冬季运动" id="305" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州启迪乔波冰雪世界" target="Theme_自然风光" id="306" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州启迪乔波冰雪世界" target="Theme_主题乐园" id="307" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州启迪乔波冰雪世界" target="Audience_亲子家庭" id="308" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州启迪乔波冰雪世界" target="Audience_年轻人" id="309" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州启迪乔波冰雪世界" target="Audience_情侣" id="310" weight="1">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州启迪乔波冰雪世界" target="Area_云龙区" id="311" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_点石园石刻艺术馆" target="Theme_文化演艺" id="312" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_点石园石刻艺术馆" target="Audience_文化爱好者" id="313" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_点石园石刻艺术馆" target="Audience_情侣" id="314" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_点石园石刻艺术馆" target="Area_鼓楼区" id="315" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州吕梁风景区" target="Theme_自然风光" id="316" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州吕梁风景区" target="Theme_历史遗迹" id="317" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州吕梁风景区" target="Theme_主题乐园" id="318" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州吕梁风景区" target="Audience_文化爱好者" id="319" weight="12">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州吕梁风景区" target="Audience_学生团体" id="320" weight="9">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州吕梁风景区" target="Audience_老年人" id="321" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州吕梁风景区" target="Area_铜山区" id="322" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州轮胎乐园" target="Theme_主题乐园" id="323" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州轮胎乐园" target="Theme_科普教育" id="324" weight="1">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州轮胎乐园" target="Audience_亲子家庭" id="325" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州轮胎乐园" target="Audience_学生团体" id="326" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州轮胎乐园" target="Audience_年轻人" id="327" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州轮胎乐园" target="Area_铜山区" id="328" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州园博园涵田度假村温泉" target="Theme_自然风光" id="329" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州园博园涵田度假村温泉" target="Area_铜山区" id="330" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_小南湖" target="Theme_自然风光" id="331" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_小南湖" target="Audience_情侣" id="332" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_小南湖" target="Audience_摄影爱好者" id="333" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_小南湖" target="Area_泉山区" id="334" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州蟠桃山佛教文化景区" target="Theme_宗教文化" id="335" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州蟠桃山佛教文化景区" target="Theme_自然风光" id="336" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州蟠桃山佛教文化景区" target="Audience_老年人" id="337" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州蟠桃山佛教文化景区" target="Audience_文化爱好者" id="338" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州蟠桃山佛教文化景区" target="Audience_学生团体" id="339" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州蟠桃山佛教文化景区" target="Area_鼓楼区" id="340" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县汉城景区" target="Theme_两汉文化" id="341" weight="15">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县汉城景区" target="Theme_自然风光" id="342" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县汉城景区" target="Theme_博物馆" id="343" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县汉城景区" target="Audience_老年人" id="344" weight="8">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县汉城景区" target="Audience_文化爱好者" id="345" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县汉城景区" target="Audience_学生团体" id="346" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县汉城景区" target="Area_沛县" id="347" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州百乐汤汗蒸汤泉" target="Theme_主题乐园" id="348" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州百乐汤汗蒸汤泉" target="Theme_水上活动" id="349" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州百乐汤汗蒸汤泉" target="Theme_城市公园" id="350" weight="1">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州百乐汤汗蒸汤泉" target="Audience_亲子家庭" id="351" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州百乐汤汗蒸汤泉" target="Audience_老年人" id="352" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州百乐汤汗蒸汤泉" target="Audience_情侣" id="353" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州百乐汤汗蒸汤泉" target="Area_鼓楼区" id="354" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州金龙湖风景区" target="Theme_自然风光" id="355" weight="10">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州金龙湖风景区" target="Theme_城市公园" id="356" weight="1">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州金龙湖风景区" target="Audience_摄影爱好者" id="357" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州金龙湖风景区" target="Audience_老年人" id="358" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州金龙湖风景区" target="Audience_情侣" id="359" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州金龙湖风景区" target="Area_睢宁县" id="360" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县博物馆" target="Theme_博物馆" id="361" weight="11">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县博物馆" target="Theme_两汉文化" id="362" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县博物馆" target="Audience_文化爱好者" id="363" weight="9">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县博物馆" target="Audience_学生团体" id="364" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_沛县博物馆" target="Area_沛县" id="365" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉画像石馆" target="Theme_两汉文化" id="366" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉画像石馆" target="Theme_历史遗迹" id="367" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉画像石馆" target="Theme_自然风光" id="368" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉画像石馆" target="Audience_文化爱好者" id="369" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉画像石馆" target="Audience_学生团体" id="370" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉画像石馆" target="Audience_老年人" id="371" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州汉画像石馆" target="Area_泉山区" id="372" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州水族展览馆" target="Theme_自然风光" id="373" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州水族展览馆" target="Theme_博物馆" id="374" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州水族展览馆" target="Theme_水上活动" id="375" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州水族展览馆" target="Audience_文化爱好者" id="376" weight="9">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州水族展览馆" target="Audience_学生团体" id="377" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州水族展览馆" target="Audience_亲子家庭" id="378" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州水族展览馆" target="Area_泉山区" id="379" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_兴化禅寺" target="Theme_宗教文化" id="380" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_兴化禅寺" target="Theme_自然风光" id="381" weight="6">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_兴化禅寺" target="Theme_博物馆" id="382" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_兴化禅寺" target="Audience_文化爱好者" id="383" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_兴化禅寺" target="Audience_学生团体" id="384" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_兴化禅寺" target="Audience_老年人" id="385" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_兴化禅寺" target="Area_泉山区" id="386" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州城下城遗址博物馆" target="Theme_博物馆" id="387" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州城下城遗址博物馆" target="Theme_两汉文化" id="388" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州城下城遗址博物馆" target="Theme_历史遗迹" id="389" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州城下城遗址博物馆" target="Audience_文化爱好者" id="390" weight="9">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州城下城遗址博物馆" target="Audience_学生团体" id="391" weight="5">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州城下城遗址博物馆" target="Audience_老年人" id="392" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州城下城遗址博物馆" target="Area_鼓楼区" id="393" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_歌风台" target="Theme_两汉文化" id="394" weight="9">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_歌风台" target="Theme_博物馆" id="395" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_歌风台" target="Theme_自然风光" id="396" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_歌风台" target="Audience_文化爱好者" id="397" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_歌风台" target="Audience_老年人" id="398" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_歌风台" target="Area_沛县" id="399" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_通天阁" target="Area_鼓楼区" id="400" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_东兴街夜市(万达广场徐州云龙店)" target="Theme_美食购物" id="401" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_东兴街夜市(万达广场徐州云龙店)" target="Theme_主题乐园" id="402" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_东兴街夜市(万达广场徐州云龙店)" target="Theme_城市公园" id="403" weight="1">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_东兴街夜市(万达广场徐州云龙店)" target="Area_云龙区" id="404" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州之夜" target="Area_贾汪区" id="405" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_老东门今雨天地街区" target="Theme_两汉文化" id="406" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_老东门今雨天地街区" target="Theme_历史遗迹" id="407" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_老东门今雨天地街区" target="Theme_博物馆" id="408" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_老东门今雨天地街区" target="Audience_文化爱好者" id="409" weight="9">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_老东门今雨天地街区" target="Audience_学生团体" id="410" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_老东门今雨天地街区" target="Audience_老年人" id="411" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_老东门今雨天地街区" target="Area_云龙区" id="412" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山步行街" target="Theme_两汉文化" id="413" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山步行街" target="Theme_历史遗迹" id="414" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山步行街" target="Theme_自然风光" id="415" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山步行街" target="Audience_文化爱好者" id="416" weight="9">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山步行街" target="Audience_学生团体" id="417" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山步行街" target="Audience_老年人" id="418" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_户部山步行街" target="Area_云龙区" id="419" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州文庙东方街区-鼓楼" target="Theme_宗教文化" id="420" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州文庙东方街区-鼓楼" target="Area_鼓楼区" id="421" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大运河" target="Theme_历史遗迹" id="422" weight="12">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大运河" target="Theme_自然风光" id="423" weight="4">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大运河" target="Theme_博物馆" id="424" weight="3">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大运河" target="Audience_文化爱好者" id="425" weight="12">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大运河" target="Audience_学生团体" id="426" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大运河" target="Audience_老年人" id="427" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_大运河" target="Area_邳州市" id="428" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特水上乐园" target="Theme_主题乐园" id="429" weight="10">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特水上乐园" target="Theme_自然风光" id="430" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特水上乐园" target="Theme_水上活动" id="431" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特水上乐园" target="Audience_亲子家庭" id="432" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州方特水上乐园" target="Area_铜山区" id="433" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_苏轼纪念馆" target="Theme_博物馆" id="434" weight="8">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_苏轼纪念馆" target="Theme_自然风光" id="435" weight="2">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_苏轼纪念馆" target="Audience_文化爱好者" id="436" weight="6">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_苏轼纪念馆" target="Audience_学生团体" id="437" weight="5">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_苏轼纪念馆" target="Audience_老年人" id="438" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_苏轼纪念馆" target="Area_泉山区" id="439" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_邳州银杏时光隧道景区" target="Audience_摄影爱好者" id="440" weight="2">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_邳州银杏时光隧道景区" target="Area_邳州市" id="441" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州大龙湖风景区" target="Theme_自然风光" id="442" weight="12">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州大龙湖风景区" target="Theme_城市公园" id="443" weight="1">
+        <attvalues>
+          <attvalue for="5" value="HAS_THEME" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州大龙湖风景区" target="Audience_老年人" id="444" weight="4">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州大龙湖风景区" target="Audience_文化爱好者" id="445" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州大龙湖风景区" target="Audience_学生团体" id="446" weight="3">
+        <attvalues>
+          <attvalue for="5" value="SUITABLE_FOR" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attraction_徐州大龙湖风景区" target="Area_云龙区" id="447" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LOCATED_IN" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

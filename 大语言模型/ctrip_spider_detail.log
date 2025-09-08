@@ -1,0 +1,75 @@
+2025-06-23 12:19:19,332 - INFO - ====== WebDriver manager ======
+2025-06-23 12:19:20,861 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 12:19:21,053 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 12:19:21,209 - INFO - Driver [/Users/octopus/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-x64/chromedriver] found in cache
+2025-06-23 12:19:29,090 - INFO - Selenium驱动初始化成功
+2025-06-23 12:19:29,090 - INFO - 开始爬取: https://you.ctrip.com/sight/xuzhou230/17377.html?scene=online
+2025-06-23 12:19:32,091 - INFO - 访问详情页: https://you.ctrip.com/sight/xuzhou230/17377.html?scene=online
+2025-06-23 12:20:02,963 - INFO - 爬取结果 - 地址: 徐州市鼓楼区襄王北路3号, 开放时间: 冬令时 08:30-17:00开放, 夏令时 08:30-17:30开放
+2025-06-23 12:20:03,056 - INFO - 已关闭浏览器
+2025-06-23 13:13:38,727 - INFO - ====== WebDriver manager ======
+2025-06-23 13:13:39,670 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 13:13:39,838 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 13:13:39,989 - INFO - Driver [/Users/octopus/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-x64/chromedriver] found in cache
+2025-06-23 13:13:47,754 - INFO - Selenium驱动初始化成功
+2025-06-23 13:13:47,756 - INFO - 开始爬取: https://you.ctrip.com/sight/xuzhou230/17377.html?scene=online
+2025-06-23 13:13:50,294 - INFO - 访问详情页: https://you.ctrip.com/sight/xuzhou230/17377.html?scene=online
+2025-06-23 13:14:17,293 - ERROR - 获取页面失败: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001055cc358 chromedriver + 6136664
+1   chromedriver                        0x00000001055c3aba chromedriver + 6101690
+2   chromedriver                        0x0000000105058380 chromedriver + 418688
+3   chromedriver                        0x00000001050a9f34 chromedriver + 753460
+4   chromedriver                        0x00000001050aa151 chromedriver + 754001
+5   chromedriver                        0x00000001050fa9d4 chromedriver + 1083860
+6   chromedriver                        0x00000001050d021d chromedriver + 909853
+7   chromedriver                        0x00000001050f7d82 chromedriver + 1072514
+8   chromedriver                        0x00000001050cffc3 chromedriver + 909251
+9   chromedriver                        0x000000010509c217 chromedriver + 696855
+10  chromedriver                        0x000000010509ce81 chromedriver + 700033
+11  chromedriver                        0x000000010558a220 chromedriver + 5866016
+12  chromedriver                        0x000000010558e18f chromedriver + 5882255
+13  chromedriver                        0x00000001055655c2 chromedriver + 5715394
+14  chromedriver                        0x000000010558eaef chromedriver + 5884655
+15  chromedriver                        0x0000000105553d84 chromedriver + 5643652
+16  chromedriver                        0x00000001055b12b8 chromedriver + 6025912
+17  chromedriver                        0x00000001055b1480 chromedriver + 6026368
+18  chromedriver                        0x00000001055c3681 chromedriver + 6100609
+19  libsystem_pthread.dylib             0x00007ff805066df1 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff805062857 thread_start + 15
+
+2025-06-23 13:14:17,294 - WARNING - 未能获取页面内容
+2025-06-23 13:14:17,295 - ERROR - 爬取过程中出错: 'NoneType' object is not subscriptable
+2025-06-23 13:14:18,388 - INFO - 已关闭浏览器
+2025-06-23 13:14:54,360 - INFO - ====== WebDriver manager ======
+2025-06-23 13:14:54,958 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 13:14:55,133 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 13:14:55,296 - INFO - Driver [/Users/octopus/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-x64/chromedriver] found in cache
+2025-06-23 13:15:04,399 - INFO - 访问详情页: https://you.ctrip.com/sight/xuzhou230/17377.html?scene=online
+2025-06-23 13:15:28,149 - WARNING - 基本信息区域加载超时: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050b7358 chromedriver + 6136664
+1   chromedriver                        0x00000001050aeaba chromedriver + 6101690
+2   chromedriver                        0x0000000104b43380 chromedriver + 418688
+3   chromedriver                        0x0000000104b94f34 chromedriver + 753460
+4   chromedriver                        0x0000000104b95151 chromedriver + 754001
+5   chromedriver                        0x0000000104be59d4 chromedriver + 1083860
+6   chromedriver                        0x0000000104bbb21d chromedriver + 909853
+7   chromedriver                        0x0000000104be2d82 chromedriver + 1072514
+8   chromedriver                        0x0000000104bbafc3 chromedriver + 909251
+9   chromedriver                        0x0000000104b87217 chromedriver + 696855
+10  chromedriver                        0x0000000104b87e81 chromedriver + 700033
+11  chromedriver                        0x0000000105075220 chromedriver + 5866016
+12  chromedriver                        0x000000010507918f chromedriver + 5882255
+13  chromedriver                        0x00000001050505c2 chromedriver + 5715394
+14  chromedriver                        0x0000000105079aef chromedriver + 5884655
+15  chromedriver                        0x000000010503ed84 chromedriver + 5643652
+16  chromedriver                        0x000000010509c2b8 chromedriver + 6025912
+17  chromedriver                        0x000000010509c480 chromedriver + 6026368
+18  chromedriver                        0x00000001050ae681 chromedriver + 6100609
+19  libsystem_pthread.dylib             0x00007ff805066df1 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff805062857 thread_start + 15
+
+2025-06-23 13:15:31,252 - WARNING - 未找到基本信息区域
+2025-06-23 13:15:31,252 - INFO - 爬取结果: 地址=未找到, 开放时间=未找到, 电话=未找到
+2025-06-23 13:15:32,345 - INFO - 已关闭浏览器
